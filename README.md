@@ -1,6 +1,8 @@
 AFL score plot
 ==============
 
+**This version will deal with player records**
+
 Small scripts for plotting historical AFL scores. In particular, average home and away team scores are plotted against the years 1897-present.
 
 Pulls data from [AFL Tables](http://afltables.com/afl/afl_index.html) and plots it.
