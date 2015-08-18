@@ -17,4 +17,4 @@ Just text manipulation. Takes the raw data and turns it into CSV format.
 
 ## year_score.R
 
-Plots a pretty picture like year_score.svg.
+Plots a pretty picture: [year_score.svg](https://github.com/smcateer/afl_score_plot/blob/master/year_score.svg).
