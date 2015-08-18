@@ -14,6 +14,6 @@ mean_score = aggregate(points ~ year + home_away, data=dl, mean)
 # Rename the column for the plot
 mean_score = rename(mean_score, c('home_away'='venue'))
 # Pretty pictures
-png('year_score.png')
+svg('year_score.svg', width=8, height=6)
 p = ggplot(mean_score, aes(x=year, y=points, colour=venue)) + geom_line() + ggtitle('Mean AFL/VFL scores by year')
 show(p)
